@@ -1,2 +1,2 @@
 # forocoches-keyboard-navigation
-Navigate though Forocoches.com threads using keyboard
+Navigate through Forocoches.com threads using keyboard
