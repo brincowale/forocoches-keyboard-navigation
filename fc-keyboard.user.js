@@ -16,7 +16,7 @@ document.addEventListener('keydown', function(e) {
         CURRENT_URL += "&page=1";
     }
     if (e.keyCode == LEFT_ARROW) {
-        if (CURRENT_URL.includes("page=1")) {
+        if (CURRENT_URL.includes("page=1&") || CURRENT_URL.endsWith("page=1")) {
             return false;
         }
         newURL = CURRENT_URL.replace(RE, function($0, $1) {
